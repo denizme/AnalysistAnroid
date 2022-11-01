@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "107632843149",
+    "project_id": "analysist-android",
+    "storage_bucket": "analysist-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107632843149:android:1b84b9d6a148e1057f45c4",
+        "android_client_info": {
+          "package_name": "insta.followers.unfollowers.analyzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107632843149-8egu0imvse3s4306tl2ug2lg1tb857pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTES6lv-CqYHq_v-x7A3rjCAfyhZEE_Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107632843149-8egu0imvse3s4306tl2ug2lg1tb857pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

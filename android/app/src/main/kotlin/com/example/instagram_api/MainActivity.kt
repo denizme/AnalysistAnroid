@@ -1,4 +1,4 @@
-package com.example.instagram_api
+package insta.followers.unfollowers.analyzer
 
 import io.flutter.embedding.android.FlutterActivity
 

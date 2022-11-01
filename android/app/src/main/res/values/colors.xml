@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultNotificationColor">#505094</color>
+    <color name="primary">#EB6962</color>
+    <color name="bgcolor">#ffffff</color>
+</resources>
