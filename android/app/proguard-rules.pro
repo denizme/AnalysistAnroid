@@ -16,11 +16,6 @@
 -keep class android.support.v4.util.LruCache { *; }
 
 
-# VOLLEY
--keep class com.android.volley.** { *; }
--keep interface com.android.volley.** { *; }
--keep class org.apache.commons.logging.**
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # ADCOLONY
@@ -91,17 +86,6 @@ public static <fields>;
 # APPNEXT
 -keep class com.appnext.** { *; }
 -dontwarn com.appnext.**
-
-# APPSAMURAI
--keepclassmembers,allowobfuscation class * {
-  @com.google.gson.annotations.SerializedName <fields>;
-}
-
-# AVOCARROT - GLISPA
--keep class com.avocarrot.** { *; }
--dontwarn com.avocarrot.**
--keep class com.google.android.exoplayer2.SimpleExoPlayer
--dontwarn com.google.android.exoplayer2.SimpleExoPlayer
 
 # CHARTBOOST
 -dontwarn org.apache.http.**
@@ -254,7 +238,7 @@ public static <fields>;
 -keep public class android.webkit.JavascriptInterface {}
 
 # MYTARGET
--keep class com.my.target.** {*;} 
+-keep class com.my.target.** {*;}
 
 # NEND
 -keep class net.nend.android.** { *; }
@@ -279,7 +263,7 @@ public static <fields>;
 -keep class com.qumpara.offerwall.sdk.** { *; }
 
 #POLLFISH
--dontwarn com.pollfish.** 
+-dontwarn com.pollfish.**
 -keep class com.pollfish.** { *; }
 
 # PUBNATIVE
@@ -348,12 +332,9 @@ public static <fields>;
 -keep public class com.tappx.** { *; }
 -dontwarn com.tappx.**
 
-#TIKTOK
--keep class com.bytedance.sdk.openadsdk.** { *; }
--keep public interface com.bytedance.sdk.openadsdk.downloadnew.** {*;}
--keep class com.pgl.sys.ces.** {*;}
--keep class com.bytedance.embed_dr.** {*;}
--keep class com.bytedance.embedapplog.** {*;}
+#PANGLE
+-dontwarn com.bytedance.**
+-keep class com.bytedance.** {*;}
 
 # UNITY
 -dontwarn com.unity3d.**
@@ -391,12 +372,12 @@ public static <fields>;
 -dontwarn org.conscrypt.**
 -keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
 -keepclassmembers class * extends com.vungle.warren.persistence.Memorable {
-   public <init>(byte[]);
+    public <init>(byte[]);
 }
 
 #YANDEX
 -dontwarn com.yandex.**
--keep class com.yandex.** { *; }                        
+-keep class com.yandex.** { *; }
 
 # YOUAPPI
 -keep class com.google.gson.**{ *;}
@@ -405,7 +386,7 @@ public static <fields>;
 -keep interface com.youappi.sdk.**{*;}
 -keep enum com.youappi.sdk.**{*;}
 -keepclassmembers class * {
-   @android.webkit.JavascriptInterface <methods>;
+    @android.webkit.JavascriptInterface <methods>;
 }
 
 # VERIZON

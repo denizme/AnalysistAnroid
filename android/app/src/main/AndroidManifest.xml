@@ -12,7 +12,6 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:label="Analysist"
-        android:networkSecurityConfig="@xml/admost_network_security_config"
         android:requestLegacyExternalStorage="true">
 
         <service

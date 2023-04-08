@@ -462,7 +462,7 @@ class SettingsView extends StatelessWidget {
                   }),
                   listTileWidget(
                       Icon(Icons.code, size: 20, color: ColorManager.primary),
-                      '1.0.0',
+                      '1.0.2',
                       'Current App Version',
                       () {}),
 
